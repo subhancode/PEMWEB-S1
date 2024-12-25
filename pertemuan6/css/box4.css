@@ -1,0 +1,50 @@
+.container {
+            display: grid;
+            grid-template-areas: 
+                "top-left top-center top-center top-center top-right"
+                "left center center center right"
+                "bottom bottom bottom bottom bottom";
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 5fr 1fr;
+            gap: 10px;
+            width: 1000px;
+            height: 500px;
+            margin: 0 auto;
+        }
+        .top-left {
+            grid-area: top-left;
+            background-color: yellow;
+            border: 2px solid black;
+        }
+
+        .top-center {
+            width: 133%;
+            grid-area: top-center;
+            background-color: orangered;
+            border: 2px solid black;
+        }
+
+        .left {
+            grid-area: left;
+            background-color: lightgreen;
+            border: 2px solid black;
+        }
+
+        .center {
+            grid-area: center;
+            background-color: lightgrey;
+            border: 2px solid black;
+        }
+
+        .right {
+            grid-area: right;
+            background-color: cyan;
+            border: 2px solid black;
+        }
+
+        .bottom {
+            grid-area: bottom;
+            background-color: blue;
+            border: 2px solid black;
+        }
+

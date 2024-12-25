@@ -1,0 +1,50 @@
+.green {
+    width: auto ;
+    height: 130px;
+    background-color: lightgreen;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+  }
+  .orange {
+    width: 72%;
+    height: 130px;
+    background-color: orange;
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+  }
+  .blue {
+    width: 72%;
+    height: 130px;
+    background-color: cyan;
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+  }
+  
+  .yellow1 {
+    width: 20%;
+    height: 130px;
+    background-color: yellow;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+  }
+  
+  .yellow2   {
+    width: 20%;
+    height: 130px;
+    background-color: yellow;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: auto 20px;
+    border: 1px solid black;
+  }
